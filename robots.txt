@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://test992.html.org.in/sitemap_index.xml

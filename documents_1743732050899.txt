@@ -1,0 +1,10 @@
+{
+    "/": {
+        "title": "Home",
+        "text": "Welcom To this page."
+    },
+    "/documentation/lorem-test/lorem-test-1/": {
+        "title": "Lorem Test 1",
+        "text": "Lorem Test 1"
+    }
+}

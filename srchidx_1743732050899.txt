@@ -1,0 +1,217 @@
+{
+    "version": "2.3.9",
+    "fields": [
+        "title",
+        "text"
+    ],
+    "fieldVectors": [
+        [
+            "title//",
+            [
+                0,
+                0.871
+            ]
+        ],
+        [
+            "text//",
+            [
+                1,
+                0.655,
+                2,
+                0.655,
+                3,
+                0.655,
+                4,
+                0.655
+            ]
+        ],
+        [
+            "title//documentation/lorem-test/lorem-test-1/",
+            [
+                5,
+                0.151,
+                6,
+                0.151,
+                7,
+                0.151
+            ]
+        ],
+        [
+            "text//documentation/lorem-test/lorem-test-1/",
+            [
+                5,
+                0.194,
+                6,
+                0.194,
+                7,
+                0.194
+            ]
+        ]
+    ],
+    "invertedIndex": [
+        [
+            "1",
+            {
+                "_index": 7,
+                "title": {
+                    "/documentation/lorem-test/lorem-test-1/": {
+                        "position": [
+                            [
+                                11,
+                                1
+                            ]
+                        ]
+                    }
+                },
+                "text": {
+                    "/documentation/lorem-test/lorem-test-1/": {
+                        "position": [
+                            [
+                                11,
+                                1
+                            ]
+                        ]
+                    }
+                }
+            }
+        ],
+        [
+            "home",
+            {
+                "_index": 0,
+                "title": {
+                    "/": {
+                        "position": [
+                            [
+                                0,
+                                4
+                            ]
+                        ]
+                    }
+                },
+                "text": {}
+            }
+        ],
+        [
+            "lorem",
+            {
+                "_index": 5,
+                "title": {
+                    "/documentation/lorem-test/lorem-test-1/": {
+                        "position": [
+                            [
+                                0,
+                                5
+                            ]
+                        ]
+                    }
+                },
+                "text": {
+                    "/documentation/lorem-test/lorem-test-1/": {
+                        "position": [
+                            [
+                                0,
+                                5
+                            ]
+                        ]
+                    }
+                }
+            }
+        ],
+        [
+            "page.",
+            {
+                "_index": 4,
+                "title": {},
+                "text": {
+                    "/": {
+                        "position": [
+                            [
+                                15,
+                                5
+                            ]
+                        ]
+                    }
+                }
+            }
+        ],
+        [
+            "test",
+            {
+                "_index": 6,
+                "title": {
+                    "/documentation/lorem-test/lorem-test-1/": {
+                        "position": [
+                            [
+                                6,
+                                4
+                            ]
+                        ]
+                    }
+                },
+                "text": {
+                    "/documentation/lorem-test/lorem-test-1/": {
+                        "position": [
+                            [
+                                6,
+                                4
+                            ]
+                        ]
+                    }
+                }
+            }
+        ],
+        [
+            "this",
+            {
+                "_index": 3,
+                "title": {},
+                "text": {
+                    "/": {
+                        "position": [
+                            [
+                                10,
+                                4
+                            ]
+                        ]
+                    }
+                }
+            }
+        ],
+        [
+            "to",
+            {
+                "_index": 2,
+                "title": {},
+                "text": {
+                    "/": {
+                        "position": [
+                            [
+                                7,
+                                2
+                            ]
+                        ]
+                    }
+                }
+            }
+        ],
+        [
+            "welcom",
+            {
+                "_index": 1,
+                "title": {},
+                "text": {
+                    "/": {
+                        "position": [
+                            [
+                                0,
+                                6
+                            ]
+                        ]
+                    }
+                }
+            }
+        ]
+    ],
+    "pipeline": []
+}
