@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://127.0.0.1:5500/sitemap_index.xml
+Sitemap: https://test992.html.org.in/sitemap_index.xml
