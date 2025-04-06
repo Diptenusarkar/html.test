@@ -30,7 +30,7 @@
     </style>
     <script>
         function getInitialTheme() {
-            const savedTheme = localStorage.getItem('theme') || 'light';
+            const savedTheme = localStorage.getItem('theme') || 'dark';
             if (savedTheme === 'light' || savedTheme === 'dark') return savedTheme;
             return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
         }
@@ -218,8 +218,8 @@
     import {preInitTree} from 'https://test992.html.org.in/_lib/pre.js';
     preInitTree();
     await initPage();
-    await initTheme('light');
-    await initSearch('https://test992.html.org.in', '1743862289682');
+    await initTheme('dark');
+    await initSearch('https://test992.html.org.in', '1743910904572');
     document.documentElement.style.visibility = 'visible';
     document.documentElement.style.opacity = '1';
     initToc();
